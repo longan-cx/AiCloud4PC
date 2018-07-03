@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<Window caption="0,0,0,195" size="400,195" roundcorner="4,4"  showshadow="true" shadowimage="main/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+  <Font id="0" name="微软雅黑" size="12" default="true"/>
+  <Font id="1" name="微软雅黑" size="14" bold="true"/>
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <HorizontalLayout name="appbar" height="20" inset="6,-1" bkcolor="#FFFFFFFF">
+      <Label name="MessageTitle" align="center" valign="vcenter" text="提示" textcolor="#FF000000" font="1"/>
+      <Button name="closebtn" width="32" height="20" tooltip="关闭" normalimage="file='sysbtn/btn_sys_close.png' source='0,0,32,20'" hotimage="file='sysbtn/btn_sys_close.png' source='32,0,64,20'" pushedimage="file='sysbtn/btn_sys_close.png' source='64,0,96,20'"/>
+    </HorizontalLayout>
+	<Control height="15"/>
+    <VerticalLayout inset="20,10,20,10">
+		<Label name="MessageText" height ="120" text="Label标签控件自动换行测试" align="left" wordbreak="true" textcolor="#FF000000" />
+    </VerticalLayout>
+    <HorizontalLayout height="60" inset="10,10,10,10">
+      <Control/>
+      <Button name="confirm_btn" style="btnstyle_queding"/>
+      <Control width="20"/>
+      <Button name="cancel_btn" style="btnstyle_quxiao"/>
+      <Control width="30"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

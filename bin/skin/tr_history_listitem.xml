@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window >
+  <Font id="100" name="宋体" size="13" underline="false" shared="true"/>
+
+  <ListContainerElement height="60" inset="20,5,20,5">
+	
+	<HorizontalLayout  height="50" >
+		<Label name="tr_history_listitem_image" bkimage="filetype/middle/ApkType.png" height="50" width="50"></Label>
+		<VerticalLayout >
+			<HorizontalLayout inset="5,5,5,5">
+				<Label name="tr_history_listitem_name" text="1年终工作总结最常用的99张工作图汇总--@he.pptx" endellipsis="true" ></Label>
+				
+			</HorizontalLayout>
+			<HorizontalLayout inset="5,5,5,5">
+				<Label name="tr_history_listitem_size"  text="4GB" textcolor="#ffafafaf" ></Label>
+			</HorizontalLayout>
+
+		</VerticalLayout>
+		<HorizontalLayout width="160" inset="20,6,5,6">
+			<Label name="tr_history_listitem_overtime" text="2018/06/30 22:10:10" textcolor="#ffafafaf" align="center"></Label>
+		</HorizontalLayout>
+		<HorizontalLayout width="120" inset="20,6,5,6">
+			<Label name="tr_history_listitem_status_text" text="上传完成" textcolor="#ffafafaf" align="center" ></Label>
+		</HorizontalLayout>
+		<HorizontalLayout width="120" inset="20,15,5,15">
+			<Label></Label>
+			<Button name="tr_history_listitem_status_open" text="" tooltip="打开" width="20" normalimage="file='sysbtn/createdir.png' source='0,0,20,20'" hotimage="file='sysbtn/createdir.png' source='20,0,40,20'"  ></Button>
+			<Label></Label>
+			<Button name="tr_history_listitem_status_delete" text=""  tooltip="清除记录"  width="20" normalimage="file='sysbtn/delete.png' source='0,0,20,20'" hotimage="file='sysbtn/delete.png' source='20,0,40,20'"  ></Button>
+			<Label></Label>
+		</HorizontalLayout>
+	</HorizontalLayout>
+		
+  </ListContainerElement>
+</Window>

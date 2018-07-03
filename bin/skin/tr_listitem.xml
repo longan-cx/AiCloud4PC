@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window >
+  <Font id="100" name="宋体" size="13" underline="false" shared="true"/>
+
+  <ListContainerElement height="60" inset="20,5,20,5">
+	
+	<HorizontalLayout  height="50" >
+		<Label name="tr_list_image" bkimage="filetype/middle/ApkType.png" height="50" width="50"></Label>
+		<VerticalLayout >
+			<HorizontalLayout inset="5,5,5,5">
+				<Label name="tr_list_filename" text="1年终工作总结最常用的99张工作图汇总--@he.pptx" endellipsis="true" ></Label>
+				<Label name="tr_list_trtime" text="00:22:22"  align="center" width="110" textcolor="#ffafafaf"></Label>
+				<Progress name="tr_list_trprogress" width="110" style="prog_style" text="" value="8" min="0" max="100"/>
+			</HorizontalLayout>
+			<HorizontalLayout inset="5,5,5,5">
+				<Label name="tr_list_progress_text" text="100KB/10GB" textcolor="#ffafafaf" ></Label>
+				<Label width="110" ></Label>
+				<Label name="tr_list_progress_speed" width="110" text="22MB/s" textcolor="#ffafafaf" ></Label>
+			</HorizontalLayout>
+
+		</VerticalLayout>
+
+		<HorizontalLayout width="120" inset="20,6,5,6">
+			<Button name="tr_list_btn_pause" text="" normalimage="file='tr/tr_pause_btn.png' source='0,0,38,38'" hotimage="file='tr/tr_pause_btn.png' source='38,0,76,38'" pushedimage="file='tr/tr_pause_btn.png' source='76,0,114,38'"  ></Button>
+			<Button name="tr_list_btn_play" text="" normalimage="file='tr/tr_play_btn.png' source='0,0,38,38'" hotimage="file='tr/tr_play_btn.png' source='38,0,76,38'" pushedimage="file='tr/tr_play_btn.png' source='76,0,114,38'" visible="false"  ></Button>
+			<Button name="tr_list_btn_canel" text="" normalimage="file='tr/tr_canel_btn.png' source='0,0,32,32'" hotimage="file='tr/tr_canel_btn.png' source='32,0,64,32'" pushedimage="file='tr/tr_canel_btn.png' source='64,0,96,32'"  ></Button>
+			<Button text="" textcolor="#ffafafaf" ></Button>
+		</HorizontalLayout>
+	</HorizontalLayout>
+		
+  </ListContainerElement>
+</Window>

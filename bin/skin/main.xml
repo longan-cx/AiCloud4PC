@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="1056,655" sizebox="4,4,6,6" roundcorner="0,0" caption="0,0,0,64" bktrans="false" mininfo="800,600" showshadow="true" shadowimage="main/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+  <Font shared="true" id="0" name="宋体" size="13" default="true"/>
+  <Font shared="true" id="1" name="宋体" size="12" bold="false" underline="true"/>
+  <Font shared="true" id="2" name="宋体" size="16" bold="false"/>
+  <Font shared="true" id="3" name="宋体" size="18" bold="false"/>
+  <Font shared="true" id="4" name="微软雅黑" size="22" bold="false"/>
+   <Font shared="true" id="5" name="微软雅黑" size="16" bold="false"/>
+
+	<!--<Default name="VScrollBar" shared="true" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" shared="true" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />-->
+  <Default name="VScrollBar" shared="true" value="width=&quot;8&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='sysbtn/vscrollbar.png' source='0,60,8,100' corner='0,4,0,4'&quot; thumbhotimage=&quot;file='sysbtn/vscrollbar.png' source='8,60,16,100' corner='0,4,0,4'&quot; thumbpushedimage=&quot;file='sysbtn/vscrollbar.png' source='16,60,24,100' corner='0,4,0,4'&quot; railnormalimage=&quot;&quot; railhotimage=&quot;&quot; railpushedimage=&quot;&quot; raildisabledimage=&quot;&quot; bknormalimage=&quot;file='sysbtn/vscrollbar.png' source='0,0,8,60' corner='0,4,0,4'&quot; bkhotimage=&quot;&quot; bkpushedimage=&quot;&quot; bkdisabledimage=&quot;&quot; "/>
+  <Default name="HScrollBar" shared="true" value="height=&quot;8&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='sysbtn/hscrollbar.png' source='0,0,32,8' corner='4,0,4,0'&quot; thumbhotimage=&quot;file='sysbtn/hscrollbar.png' source='0,8,32,16' corner='4,0,4,0'&quot; thumbpushedimage=&quot;file='sysbtn/hscrollbar.png' source='0,16,32,24' corner='4,0,4,0'&quot; railnormalimage=&quot;&quot; railhotimage=&quot;&quot; railpushedimage=&quot;&quot; raildisabledimage=&quot;&quot; bknormalimage=&quot;file='sysbtn/hscrollbar.png' source='0,0,32,8' corner='4,0,4,0'&quot; bkhotimage=&quot;&quot; bkpushedimage=&quot;&quot; bkdisabledimage=&quot;&quot; "/>
+  <Style name="btnstyle_queding" shared="true" value="stateimage=&quot;res='sysbtn/queding.png' corner='6,6,6,6'&quot; statecount=&quot;3&quot; width=&quot;59&quot; height=&quot;23&quot; tooltip=&quot;确定&quot;"/>
+  <Style name="btnstyle_quxiao" shared="true" value="stateimage=&quot;res='sysbtn/quxiao.png'&quot; statecount=&quot;3&quot; width=&quot;59&quot; height=&quot;23&quot; tooltip=&quot;取消&quot;"/>
+  <Style name="main_tab" value="textcolor=&quot;#FF386382&quot; font=&quot;2&quot; normalimage=&quot;tabbar_normal.png&quot; hotimage=&quot;tabbar_hover.png&quot; pushedimage=&quot;tabbar_pushed.png&quot; selectedimage=&quot;tabbar_pushed.png&quot; group=&quot;tab_header&quot; "/>
+  <Style name="colortab_style" shared="true" value="textcolor=&quot;#FFAFADAD&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;6,0,6,0&quot; bkcolor=&quot;#FF2c2c2c&quot; hotbkcolor=&quot;#FF4b4b4b&quot; pushedbkcolor=&quot;#FF424242&quot; selectedbkcolor=&quot;#FF424242&quot; group=&quot;tab_header&quot;"/>
+  <Style name="combo_style" value="height=&quot;28&quot; textcolor=&quot;#FFFFFFFF&quot; itemvalign=&quot;vcenter&quot; textpadding=&quot;4,1,28,1&quot; normalimage=&quot;res='sysbtn/combo.png' source='0,0,161,28' corner='2,2,28,2'&quot; hotimage=&quot;res='sysbtn/combo.png' source='0,28,161,56' corner='2,2,28,2'&quot; pushedimage=&quot;res='sysbtn/combo.png' source='0,56,161,84' corner='2,2,28,2'&quot;"/>
+  <Style name="list_style" itemaltbk="true" value="headerbkimage=&quot;res='sysbtn/list_header_bg.png'&quot; itemalign=&quot;center&quot; itemlinecolor=&quot;#FF888888&quot; itemshowrowline=&quot;false&quot; itemshowcolumnline=&quot;false&quot;"/>
+  <Style name="edit_style" value="width=&quot;200&quot; height=&quot;24&quot; textpadding=&quot;6,6,6,6&quot; bkcolor=&quot;#FF666666&quot; nativebkcolor=&quot;#FF666666&quot; bkimage=&quot;res='sysbtn/edit_bk.png' corner='6,6,6,6'&quot;"/>
+  <Style name="btn_style" value="drag=&quot;false&quot; height=&quot;30&quot; textpadding=&quot;6,0,6,0&quot; normalimage=&quot;res='sysbtn/button_normal.png' corner='4,4,4,4'&quot; hotimage=&quot;res='sysbtn/button_hover.png' corner='4,4,4,4'&quot; pushedimage=&quot;res='sysbtn/button_pushed.png' corner='4,4,4,4'&quot; focusedimage1=&quot;res='sysbtn/button_pushed.png' corner='4,4,4,4'&quot; selectedimage=&quot;res='sysbtn/button_pushed.png' corner='4,4,4,4'&quot;"/>
+  <Style name="treenode_folder_style" value="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='sysbtn/treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='sysbtn/treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='sysbtn/treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='sysbtn/treeview_a.png' source='16,0,32,16' &quot;"/>
+  <Style name="treenode_checkbox_style" value="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='sysbtn/unchecked.png' &quot; selectedimage=&quot;file='sysbtn/checked.png'&quot;"/>
+  <Style name="treeview_style" value="folderattr=&quot;treenode_folder_style&quot; checkboxattr=&quot;treenode_checkbox_style&quot;"/>
+  <Style name="listex_item_style" value="checkboxwidth=&quot;16&quot; checkboxheight=&quot;16&quot; checkboxnormalimage=&quot;file='sysbtn/unchecked.png'&quot; checkboxselectedimage=&quot;file='sysbtn/checked.png'&quot;"/>
+  <Style name="colorbtn_style" shared="true" value="textcolor=&quot;#FFAFADAD&quot; hottextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;6,0,6,0&quot; bkcolor=&quot;#FF2c2c2c&quot; hotbkcolor=&quot;#FF4b4b4b&quot; pushedbkcolor=&quot;#FF424242&quot;"/>
+  <Style name="cb_style" shared="true" value="align=&quot;left&quot; valign=&quot;vcenter&quot; height=&quot;16&quot; textcolor=&quot;#FFAFADAD&quot; hottextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,0,6,0&quot; normalimage=&quot;res='sysbtn/cb_normal.png' dest='0,0,16.16'&quot; hotimage=&quot;res='sysbtn/cb_hot.png' dest='0,0,16.16'&quot; pushedimage=&quot;res='sysbtn/cb_pushed.png' dest='0,0,16.16'&quot; selectedimage=&quot;res='sysbtn/cb_selected.png' dest='0,0,16,16'&quot;"/>
+  <Style name="radio_style" shared="true" value="align=&quot;left&quot; valign=&quot;vcenter&quot; height=&quot;17&quot; textcolor=&quot;#FFAFADAD&quot; hottextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,0,6,0&quot; stateimage=&quot;res='sysbtn/radio_normal.png' dest='0,0,17,17'&quot; statecount=&quot;2&quot; selectedstateimage=&quot;res='sysbtn/radio_selected.png' dest='0,0,17,17'&quot; selectedstatecount=&quot;2&quot;"/>
+  <Style name="prog_style" shared="true" value="borderround=&quot;5,5&quot; padding=&quot;0,0&quot; text=&quot;29M/1024G&quot; textcolor=&quot;#FF333333&quot; valign=&quot;vcenter&quot; height=&quot;16&quot; bkcolor=&quot;#FFe1e1e1&quot; forecolor=&quot;#FF00FF00&quot;"/>
+
+	<VerticalLayout name="root" bkcolor="#FFFFFFFF">
+	  <!--bkcolor="#FFF7F7F7"-->
+	  <HorizontalLayout height="60" bordersize="0"> 
+		<HorizontalLayout width="20"></HorizontalLayout>
+		<HorizontalLayout width="160" heigth="60" inset="0,-1,0,0">			
+			<Label bkimage="res='main/main_logo.png' concor='2,1,2,1'" float="true" floatalign="left,vcenter" width="50" height="40"/>
+			<HorizontalLayout width="20"></HorizontalLayout>
+			<Label text="AiCould" font="4" align="center" />
+		</HorizontalLayout>		 
+		<HorizontalLayout inset="0,-1,0,0" float="true" height="32" width="128" floatalign="right,vcenter" bordercolor="#FFFF0000" bordersize="0">
+		  <!--<FadeButton name="menubtn" virtualwnd="mainpage" width="32" height="20" cursor="hand" tooltip="菜单" normalimage="sysbtn_menu_normal" hotimage="sysbtn_menu_hot" pushedimage="sysbtn_menu_pushed"/>-->
+			<Button name="skinbtn" virtualwnd="mainpage" width="32" height="20" tooltip="皮肤" normalimage="file='sysbtn/btn_sys_setting.png' source='0,0,32,20' corner='0,0,0,0'" hotimage="file='sysbtn/btn_sys_setting.png' source='32,0,64,20' corner='0,0,0,0'" pushedimage="file='sysbtn/btn_sys_setting.png' source='64,0,96,20' corner='0,0,0,0'"/>
+			<Button name="minbtn" virtualwnd="mainpage" width="32" height="20" tooltip="最小化" normalimage="file='sysbtn/btn_sys_minimize.png' source='0,0,32,20' corner='0,0,0,0'" hotimage="file='sysbtn/btn_sys_minimize.png' source='32,0,64,20' corner='0,0,0,0'" pushedimage="file='sysbtn/btn_sys_minimize.png' source='64,0,96,20' corner='0,0,0,0'"/>
+			<Button name="maxbtn" virtualwnd="mainpage" width="32" height="20" tooltip="最大化" normalimage="file='sysbtn/btn_sys_maximize.png' source='0,0,32,20' corner='0,0,0,0'" hotimage="file='sysbtn/btn_sys_maximize.png' source='32,0,64,20' corner='0,0,0,0'" pushedimage="file='sysbtn/btn_sys_maximize.png' source='64,0,96,20' corner='0,0,0,0'"/>
+			<Button name="restorebtn" virtualwnd="mainpage" width="32" height="20" tooltip="还原" visible="false" normalimage="file='sysbtn/btn_sys_restore.png' source='0,0,32,20' corner='0,0,0,0'" hotimage="file='sysbtn/btn_sys_restore.png' source='32,0,64,20' corner='0,0,0,0'" pushedimage="file='sysbtn/btn_sys_restore.png' source='64,0,96,20' corner='0,0,0,0'"/>
+			<Button name="closebtn" virtualwnd="mainpage" width="32" height="20" tooltip="关闭" normalimage="file='sysbtn/btn_sys_close.png' source='0,0,32,20' corner='0,0,0,0'" hotimage="file='sysbtn/btn_sys_close.png' source='32,0,64,20' corner='0,0,0,0'" pushedimage="file='sysbtn/btn_sys_close.png' source='64,0,96,20' corner='0,0,0,0'"/>
+		</HorizontalLayout>
+	  </HorizontalLayout>	  
+	  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />	  
+	  
+	  <HorizontalLayout name="body" >
+		  <VerticalLayout name="left" width="165">
+			  <Label height="20" ></Label>
+			  <Button name="btn_allfile" height="38" text="所有文件" font="0" align="center" hotbkcolor="#FFE6EDFF" bkcolor="#FFE6EDEF" textcolor="#FF3A93FF"  foreimage="res='sysbtn/all_normal.png' dest='30,5,44,21' "  hotforeimage="res='sysbtn/all_hover.png' dest='30,5,44,21' "></Button>
+			  <Button name="btn_picture" height="38" text="图片" font="0" hotbkcolor="#FFE6EDFF" align="center"></Button>
+			  <Button name="btn_video" height="38" text="视频" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+			  <Button name="btn_music" height="38" text="音乐" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+			  <Button name="btn_doc" height="38" text="文档" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+			  <Button name="btn_seed" height="38" text="种子" font="0" hotbkcolor="#FFE6EDFF"  align="center" ></Button>
+			  <Button name="btn_other" height="38" text="其它" font="0" hotbkcolor="#FFE6EDFF" align="center"></Button>
+			  <Button name="btn_trlist" height="38" text="传输列表" font="0" hotbkcolor="#FFE6EDFF" align="center" foreimage="res='sysbtn/list.png' source='0, 0,16,16' dest='30,6,44,22' "  hotforeimage="res='sysbtn/list.png' source='16, 0,32,16' dest='30,6,44,22' "></Button>
+			  <Button name="btn_tr_download" height="38" text="正在下载" font="0" hotbkcolor="#FFE6EDFF" align="center"  normalimage="file='tr/download_btn.png' source='0,0,165,38' corner='0,0,0,0'" hotforeimage="file='tr/download_btn.png' source='165,0,330,38' corner='0,0,0,0'" ></Button>
+			  <Button name="btn_tr_upload" height="38" text="正在上传" font="0" hotbkcolor="#FFE6EDFF" align="center"   normalimage="file='tr/upload_btn.png' source='0,0,165,38' corner='0,0,0,0'" hotforeimage="file='tr/upload_btn.png' source='165,0,330,38' corner='0,0,0,0'"></Button>
+			  <Button name="btn_tr_over" height="38" text="传输完成" font="0" hotbkcolor="#FFE6EDFF" align="center"    normalimage="file='tr/history_btn.png' source='0,0,165,38' corner='0,0,0,0'" hotforeimage="file='tr/history_btn.png' source='165,0,330,38' corner='0,0,0,0'"></Button>
+
+			  <HorizontalLayout></HorizontalLayout>
+			  <VerticalLayout height="32" inset="10,0,10,0">
+				  <Progress name="used_progress" style="prog_style" text="" value="1" min="0" max="100"/>
+				  <Label name="used_label" text="100MB/1024GB" textcolor="#ffafafaf"/>
+			  </VerticalLayout>
+			  <HorizontalLayout  height="10"></HorizontalLayout>
+		  </VerticalLayout>		  
+		  <VerticalLayout width="1" bkcolor="#FFE8E8E8" />
+		  
+		  <VerticalLayout visible="true" name="allfile_right" >
+			  <HorizontalLayout height="50" >
+				  <Button name="btn_upload" width="80" height="36" text="上传"  font="0" float="true"  pos="10, 7, 90, 43" hottextcolor="#FF518cf7" foreimage="res='sysbtn/upload.png' source='0,0,20,20' dest='5,7,25,27' "  hotforeimage="res='sysbtn/upload.png' source='20,0,40,20' dest='5,7,25,27' " pushedtextcolor="FF518cf7" align="center" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <Button name="btn_download" width="80" height="36" text="下载" enabled="false" font="0" float="true"  pos="90, 7, 170, 43" hottextcolor="#FF518cf7" foreimage="res='sysbtn/download.png' source='0,0,20,20' dest='5,7,25,27'"    hotforeimage="res='sysbtn/download.png' source='20,0,40,20' dest='5,7,25,27' " pushedtextcolor="FF518cf7" align="center" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <Button name="btn_delete" width="80" height="36" text="删除" enabled="false" font="0" float="true"  pos="170, 7, 250, 43" hottextcolor="#FF518cf7" foreimage="res='sysbtn/delete.png' source='0,0,20,20' dest='5,7,25,27' "   hotforeimage="res='sysbtn/delete.png' source='20,0,40,20' dest='5,7,25,27' " pushedtextcolor="FF518cf7" align="center" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <Button name="btn_createdir" width="120" height="36" text="新建文件夹" font="0" float="true"  pos="250, 7, 370, 43" hottextcolor="#FF518cf7" foreimage="res='sysbtn/createdir.png' source='0,0,20,20' dest='5,7,25,27' "   hotforeimage="res='sysbtn/createdir.png' source='20,0,40,20' dest='5,7,25,27' " pushedtextcolor="FF518cf7" align="center" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <HorizontalLayout width="200"  height="25" float="true" floatalign="right,vcenter">
+					  <Button width="25" height="25" text="|" font="2" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>
+					  <Edit name="search" height="25" width="130" endellipsis="true" tipvalue="输入关键词搜索" font="0" hotimage="file='sysbtn/searchbox_bkg.png' corner='2,1,2,1'" ></Edit>
+					  <Button name="btn_search" width="25" heigth="25"  foreimage="file='sysbtn/search.png' dest='5,5,21,21' source='0,0,16,16'" hotforeimage="file='sysbtn/search.png' dest='5,5,21,21' source='16,0,32,16'" ></Button>
+					  <Label />
+				  </HorizontalLayout>
+				  
+				  <!--<Button width="80" text="下载" font="0" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>
+				  <Button width="80" text="删除" font="0" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>
+				  <Button width="110"  text="新建文件夹" font="0" enabled="true" align="center" valign="right" foreimage="dest='0,10,26,36' res='main/newdir.png'"></Button>-->
+			  </HorizontalLayout>
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <HorizontalLayout height="45"  >
+				  <Button name="btn_back" width="25" tooltip="后退" height="25" enabled="true" float="true"  pos="10, 10, 35, 35" foreimage="res='sysbtn/PreBtn.png' source='0,0,16,16' dest='5,5,21,21' "  hotforeimage="res='sysbtn/PreBtn.png' source='16,0,32,16' dest='5,5,21,21'" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <Button name="btn_go" width="25" tooltip="前进" height="25" enabled="true" float="true"  pos="45, 10, 70, 35" foreimage="res='sysbtn/NextBtn.png' source='0,0,16,16' dest='5,5,21,21' "  hotforeimage="res='sysbtn/NextBtn.png' source='16,0,32,16' dest='5,5,21,21'" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' " ></Button>
+				  <Button width="25" height="25" text="|" font="2" float="true"  pos="70, 10, 95, 35" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>
+				  <Button name="btn_root" width="80" height="25" text="所有文件 &gt;" font="0" float="true"  pos="95, 10, 170, 35" align="center" hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' "></Button>
+				  
+				  <Button name="btn_showlist" width="48" height="16" visible ="true" float="true" tooltip="切换到缩略图显示" floatalign="right,vcenter" disabledtextcolor="#FFE8E8E8" foreimage="file='sysbtn/thumb.png' source='0,0,16,16' dest='16,0,32, 16'" hotforeimage="file='sysbtn/thumb.png' source='16,0,32,16' dest='16,0,32, 16'" ></Button>
+				  <Button name="btn_showthumb" width="48" height="16" visible ="false" float="true" tooltip="切换到列表显示" floatalign="right,vcenter" disabledtextcolor="#FFE8E8E8" foreimage="file='sysbtn/list.png' source='0,0,16,16' dest='16,0,32, 16'" hotforeimage="file='sysbtn/list.png' source='16,0,32,16' dest='16,0,32, 16'" ></Button>
+
+				  <!--<Button width="25" text="&gt;" font="0" align="center" disabledtextcolor="#FFE8E8E8" enabled="false" ></Button>
+				  <Button width="10" text="|" font="0" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>
+				  <Button width="80" text="所有文件 &gt;" font="0" align="center" ></Button>
+				  <Control></Control>
+				  
+				  <Button width="60" text="[][]" font="0" align="center" disabledtextcolor="#FFE8E8E8" enabled="false"></Button>-->
+			  </HorizontalLayout>
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <TabLayout name="explorer" visible="false">
+				  <TileLayout name="filelist" itemsize="100,100" inset="8,8,8,8" childpadding="12" vscrollbar="true">
+
+			  </TileLayout>
+				
+				  <!--<WebBrowser name="baidubrowser"  url="www.baidu.com" autonavi="true"/>-->
+			  </TabLayout>
+
+
+			  <List name="listview" vscrollbar="true" hscrollbar="false" style="list_style" itemvalign="vcenter" scrollstepsize="100" itemendellipsis="true">
+				  <ListHeader height="24" menu="true">
+					  <ListHeaderItem name="headercheck" align="left" maxwidth="40" text="" foreimage="res='sysbtn/cb_normal.png' dest='10,4,26,20'" hotimage="res='sysbtn/list_header_hot.png'" pushedimage="res='sysbtn/list_header_pushed.png'" sepimage="res='sysbtn/list_header_sep.png'" sepwidth="0" />
+					  <ListHeaderItem name="header_name" align="left" text="文件名" hotimage="res='sysbtn/list_header_hot.png'" pushedimage="res='sysbtn/list_header_pushed.png'" sepimage="res='sysbtn/list_header_sep.png'" sepwidth="1"/>
+					  <ListHeaderItem text="修改时间" align="left" width="200" hotimage="res='sysbtn/list_header_hot.png'" pushedimage="res='sysbtn/list_header_pushed.png'" sepimage="res='sysbtn/list_header_sep.png'" sepwidth="1"/>
+					  <ListHeaderItem text="大小" align="left" width="200" hotimage="res='sysbtn/list_header_hot.png'" pushedimage="res='sysbtn/list_header_pushed.png'" sepimage="res='sysbtn/list_header_sep.png'" sepwidth="1"/>
+				  </ListHeader>
+				 
+			  </List>
+
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <HorizontalLayout height="30" >
+				  <Label name="fileitem_count" text="8888项" textcolor="#FF898989" width="80" align="center"></Label>
+				  <HorizontalLayout name="select_page_ui" float="true" height="30" width="200" floatalign="center,vcenter">
+					  <Button name="btn_sel_fisrt" text="&lt;&lt;"  font="2" tooltip="首页" hottextcolor="#FF518cf7" textcolor="#FF898989" width="30" height="30" align="center"  hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' "></Button>
+					  <Button name="btn_sel_before" text="&lt;"  font="2"  tooltip="上一页" hottextcolor="#FF518cf7" textcolor="#FF898989" width="30" height="30" align="center"  hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' "></Button>
+					  <Label name="btn_sel_text" text="1/100"  textcolor="#FF898989" width="80" align="center"></Label>
+					  <Button name="btn_sel_after" text="&gt;"  font="2" tooltip="下一页" hottextcolor="#FF518cf7"  textcolor="#FF898989" width="30" height="30" align="center"  hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' "></Button>
+					  <Button name="btn_sel_last" text="&gt;&gt;" font="2" tooltip="最后一页" hottextcolor="#FF518cf7" textcolor="#FF898989" width="30" height="30" align="center"  hotimage="file='sysbtn/button_bkg.png' source='18,0,36,18' corner='2,1,2,1'" pushedimage="file='sysbtn/button_bkg.png' source='2,1,2,1' "></Button>
+
+				  </HorizontalLayout>
+				 
+			  </HorizontalLayout>
+		  </VerticalLayout>
+		  <VerticalLayout name="tr_download_right" visible="false">
+			  <HorizontalLayout height="50">
+				  <Label width="20"></Label>
+				  <Label width="70" text="下载总进度"></Label>
+				  <VerticalLayout height="50">
+					  <Label height="17"></Label>
+					  <Progress name="tr_download_sum_progress" style="prog_style" text="17%" value="8" min="0" max="100"/>
+					  <Label height="17"></Label>
+				  </VerticalLayout>
+				  <Label width="10"></Label>
+				  <VerticalLayout height="50" width="200" >
+					  <Label height="17"></Label>
+						<HorizontalLayout  >
+						  <Label name="tr_download_sum_seep_label" height="80" text="20m/s" textcolor="#FF8ee9b1" align="left"></Label>
+						  <Button name="tr_download_sum_pause_btn" height="38" text="全部暂停" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+						  <Label width="10"></Label>
+						  <Button name="tr_download_sum_canel_btn" height="38" text="全部取消" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+						 </HorizontalLayout>
+					  <Label height="17"></Label>
+					</VerticalLayout>
+				  <Label width="20"></Label>
+			  </HorizontalLayout>
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <List name="tr_donwload_listview" vscrollbar="true" inset="0,0,5,0" header="hidden" itemshowrowline="true" itemlinecolor="#FFE8E8E8" hscrollbar="false"  itemvalign="vcenter" >
+				
+
+			  </List>
+			  
+		  </VerticalLayout>
+
+		  <VerticalLayout name="tr_upload_right" visible="false" >
+			  <HorizontalLayout height="50">
+				  <Label width="20"></Label>
+				  <Label width="70" text="上传总进度"></Label>
+				  <VerticalLayout height="50">
+					  <Label height="17"></Label>
+					  <Progress name="tr_upload_sum_progress" style="prog_style" text="17%" value="8" min="0" max="100"/>
+					  <Label height="17"></Label>
+				  </VerticalLayout>
+				  <Label width="10"></Label>
+				  <VerticalLayout height="50" width="200" >
+					  <Label height="17"></Label>
+					  <HorizontalLayout  >
+						  <Label name="tr_upload_sum_seep_label" height="80" text="20m/s" textcolor="#FF8ee9b1" align="left"></Label>
+						  <Button name="tr_upload_sum_pause_btn" height="38" text="全部暂停" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+						  <Label width="10"></Label>
+						  <Button name="tr_upload_sum_canel_btn" height="38" text="全部取消" font="0" hotbkcolor="#FFE6EDFF" align="center" ></Button>
+					  </HorizontalLayout>
+					  <Label height="17"></Label>
+				  </VerticalLayout>
+				  <Label width="20"></Label>
+			  </HorizontalLayout>
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <List name="tr_upload_listview" vscrollbar="true" inset="0,0,5,0" header="hidden" itemshowrowline="true" itemlinecolor="#FFE8E8E8" hscrollbar="false"  itemvalign="vcenter" >
+			
+
+			  </List>
+
+		  </VerticalLayout>
+
+		  <VerticalLayout name="tr_history_right" visible="false" >
+			  <HorizontalLayout height="50" inset="20,10,20,10">
+				 
+				  <Label text="共传输完成280个文件" align="left" font="5"></Label>
+				  <Button height="30" width="120" text="删除全部传输记录"  hotbkcolor="#FFE6EDFF" align="center" ></Button>
+			  
+			  </HorizontalLayout>
+			  <HorizontalLayout height="1" bkcolor="#FFE8E8E8" />
+			  <List name="tr_history_listview" vscrollbar="true" inset="0,0,5,0" header="hidden" itemshowrowline="true" itemlinecolor="#FFE8E8E8" hscrollbar="false"  itemvalign="vcenter" >
+				 
+			  </List>
+
+		  </VerticalLayout>
+	  </HorizontalLayout>
+	  <!--<HorizontalLayout name="bottom" height="20"/>-->
+  </VerticalLayout>
+</Window>

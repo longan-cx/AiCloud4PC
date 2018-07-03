@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window >
+  <Font id="100" name="宋体" size="13" underline="false" shared="true"/>
+  <Style name="cb_style" shared="true" value="align=&quot;left&quot; valign=&quot;vcenter&quot; height=&quot;16&quot; textcolor=&quot;#FFAFADAD&quot; hottextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,0,6,0&quot; normalimage=&quot;res='sysbtn/cb_normal.png' dest='0,0,16.16'&quot; hotimage=&quot;res='sysbtn/cb_hot.png' dest='0,0,16.16'&quot; pushedimage=&quot;res='sysbtn/cb_pushed.png' dest='0,0,16.16'&quot; selectedimage=&quot;res='sysbtn/cb_selected.png' dest='0,0,16,16'&quot;" />
+	
+  <ListContainerElement height="40">
+	 <Container >
+		<Option name="listitem_option" float="true"  floatalign="center,vcenter" textcolor="#FF000000" style="cb_style"  textpadding="6,0,6,0"  width="20" />
+	 </Container >
+		<HorizontalLayout>
+			<VerticalLayout width="20">
+				<Label height="10"></Label>
+				<Label name="listitem_image" width="20" height="20" bkimage="filetype/small/VideoType.png" align="left"/>
+				<Label height="10"></Label>
+			</VerticalLayout>
+			<Label name="listitem_filename" text="苍井空VS小泽玛利亚.avi" align="left"/>
+		</HorizontalLayout>    
+     <Label name="listitem_time" text="2018-10-20 20:10:59" align="left"/>
+	 <Label name="listitem_size" text="1.08GB" align="left"/>
+  </ListContainerElement>
+</Window>
