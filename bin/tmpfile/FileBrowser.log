@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/7/7 5:36:51。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\AiCloud\FileBrowser\FileBrowser.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"..\bin\tmpfile\AiCloud_d.pch" /Fo"..\bin\tmpfile\\" /Fd"..\bin\tmpfile\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\bin\tmpfile\AiCloud_d.pch" /Fo"..\bin\tmpfile\\" /Fd"..\bin\tmpfile\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DuiPhotoView.cpp FileBrowser.cpp FileDialogEx.cpp FileItemUI.cpp MainWnd.cpp MD5.cpp MsgWnd.cpp SkinManager.cpp UUCenterUI.cpp UUPhotoListUI.cpp
+         UUPhotoListUI.cpp
+         UUCenterUI.cpp
+         SkinManager.cpp
+         MsgWnd.cpp
+         MD5.cpp
+         MainWnd.cpp
+         FileItemUI.cpp
+         FileDialogEx.cpp
+         FileBrowser.cpp
+         DuiPhotoView.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"..\bin\tmpfile\FileBrowser.res" FileBrowser.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\AiCloud_d.exe" /INCREMENTAL /NOLOGO gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\AiCloud_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\AiCloud_d.lib" /MACHINE:X86 ..\bin\tmpfile\FileBrowser.res
+         ..\bin\tmpfile\DuiPhotoView.obj
+         ..\bin\tmpfile\FileBrowser.obj
+         ..\bin\tmpfile\FileDialogEx.obj
+         ..\bin\tmpfile\FileItemUI.obj
+         ..\bin\tmpfile\MainWnd.obj
+         ..\bin\tmpfile\MD5.obj
+         ..\bin\tmpfile\MsgWnd.obj
+         ..\bin\tmpfile\SkinManager.obj
+         ..\bin\tmpfile\stdafx.obj
+         ..\bin\tmpfile\UUCenterUI.obj
+         ..\bin\tmpfile\UUPhotoListUI.obj
+         FileBrowser.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2013\Projects\AiCloud\FileBrowser\..\bin\AiCloud_d.exe
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\AiCloud\FileBrowser\FileBrowser.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.17

@@ -5,6 +5,7 @@
 #include "FileBrowser.h"
 #include "MainWnd.h"
 #include "MD5.h"
+#include "UUCenterUI.h"
 //----------------------------------------------------------------------------------------------------------------------------------------
 
 //程序入口处调用该函数进行内存泄露检测
@@ -78,6 +79,9 @@ void InitResource()
 	}
 		break;
 	}
+
+	REGIST_DUICONTROL(CUUCenterUI);
+
 }
 
 int APIENTRY _tWinMain(HINSTANCE hInstance,

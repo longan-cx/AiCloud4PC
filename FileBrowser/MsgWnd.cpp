@@ -38,7 +38,7 @@ void CMsgWnd::OnFinalMessage( HWND hWnd)
 	delete this;
 }
 
-DuiLib::CDuiString CMsgWnd::GetSkinFile()
+CDuiString CMsgWnd::GetSkinFile()
 {
 	return _T("XML_MSG");
 }

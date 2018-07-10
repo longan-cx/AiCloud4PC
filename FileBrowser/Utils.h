@@ -6,6 +6,26 @@
 class CMyUtils{
 
 public:
+
+	static BOOL writeConfing(const std::string& filename, const std::string& appname, const std::string& keyname, const std::string& value)
+	{
+		return ::WritePrivateProfileStringA(appname.data(), keyname.data(), value.data(), filename.data());
+	}
+
+	static std::string readConfingString(const std::string& filename, const std::string& appname, const std::string& keyname)
+	{
+		char BUFF[MAX_PATH] = {0};
+		std::string str;
+		::GetPrivateProfileStringA(appname.data(), keyname.data(), "NULL", BUFF, MAX_PATH, filename.data());
+		str.append(BUFF);
+		return str;
+	}
+
+	static UINT readConfingInt(const std::string& filename, const std::string& appname, const std::string& keyname)
+	{
+		return ::GetPrivateProfileIntA(appname.data(), keyname.data(), 0, filename.data());
+	}
+	
 	static std::string & std_string_format(std::string & _str, const char * _Format, ...){
 		va_list marker = NULL;
 		va_start(marker, _Format);

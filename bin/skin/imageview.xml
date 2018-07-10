@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="615,415" sizebox="2,2,2,2" mininfo="615,415" roundcorner="3,3" caption="0,0,0,0" bktrans="true" >
+	<Font name="Tahoma" size="16" bold="true" italic="false" default="true" />
+	<Container float="true" pos="0,0" bordersize="1" bordercolor="#FF000000" bkimage="imageview/gray.png" >
+		<VerticalLayout name="bkpanel" float="false" pos="0,0" bkcolor="#ff000000" width="1920" height="1080">
+			<UUCenter name="imgpanel" float="false" />
+		</VerticalLayout>
+		<VerticalLayout>
+			<Control height="10"/>
+			<HorizontalLayout height="55">
+				<Control />
+				<Button name="closebtn" width="25" height="25" normalimage="file='imageview/pv_close.png' source='0,0,25,25'" hotimage="file='imageview/pv_close.png' source='0,25,25,50'" pushedimage="file='pv_close.png' source='0,50,25,75'" tooltip="T_(Common_Close)" />
+				<Button name="fullscreenclosebtn" visible="false" width="55" height="55" normalimage="file='imageview/pv_fullscreenclose.png' source='0,0,55,55'" hotimage="file='imageview/pv_fullscreenclose.png' source='0,55,55,110'" pushedimage="file='imageview/pv_fullscreenclose.png' source='0,110,55,165'"  tooltip="T_(PhotoView_QuitFullScreenView_Tip)" />
+				<Control width="10" />
+			</HorizontalLayout>
+			<HorizontalLayout >
+				<Control width="10" />
+				<VerticalLayout width="85">
+					<Control />
+					<HorizontalLayout height="85">
+						<Button name="leftbtn" width="38" height="38" normalimage="file='imageview/pv_left.png' source='0,0,38,38'" hotimage="file='imageview/pv_left.png' source='0,38,38,76'" pushedimage="file='imageview/pv_left.png' source='0,76,38,114'"  disabledimage="file='imageview/pv_left.png' source='0,114,38,152'" tooltip="T_(PhotoView_FullScreenView_Tip)" />
+						<Button name="fullscreenleftbtn" visible="false" width="85" height="85" normalimage="file='imageview/pv_fullscreenleft.png' source='0,0,85,85'" hotimage="file='imageview/pv_fullscreenleft.png' source='0,85,85,170'" pushedimage="file='imageview/pv_fullscreenleft.png' source='0,170,85,255'" disabledimage="file='imageview/pv_fullscreenleft.png' source='0,255,85,340'" tooltip="T_(PhotoView_FullScreenView_Tip)" />
+						<Control />
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<Control />
+				<VerticalLayout name="transfernumber" visible="false" width="90">
+					<Control />
+					<HorizontalLayout height="90" bkimage="imageview/pv_perbk.png" >
+						<Label name="numberlabel" width="90" textcolor="0xFFFFFFFF" align="center" />
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<Control />
+				<VerticalLayout width="85" >
+					<Control />
+					<HorizontalLayout height="85">
+						<Control />
+						<Button name="rightbtn" width="38" height="38" normalimage="file='imageview/pv_right.png' source='0,0,38,38'" hotimage="file='imageview/pv_right.png' source='0,38,38,76'" pushedimage="file='imageview/pv_right.png' source='0,76,38,114'"  disabledimage="file='pv_right.png' source='0,114,38,152'"  tooltip="T_(PhotoView_FullScreenView_Tip)"/>
+						<Button name="fullscreenrightbtn" visible="false" width="85" height="85" normalimage="file='imageview/pv_fullscreenright.png' source='0,0,85,85'" hotimage="file='imageview/pv_fullscreenright.png' source='0,85,85,170'" pushedimage="file='imageview/pv_fullscreenright.png' source='0,170,85,255'" disabledimage="file='imageview/pv_fullscreenright.png' source='0,255,85,340'" tooltip="T_(PhotoView_FullScreenView_Tip)" />
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<Control width="10" />
+			</HorizontalLayout>
+			<HorizontalLayout height="40"  >
+				<Control />
+				<VerticalLayout name="toolbar" width="245" bkimage="imageview/pv_toolbar_bk.png" >
+					<Control />
+					<HorizontalLayout height="26" >
+						<Control width="7"/>
+						<Button name="amplifybtn" width="26" normalimage="file='imageview/pv_amplify.png' source='0,0,26,26'" hotimage="file='imageview/pv_amplify.png' source='0,26,26,52'" pushedimage="file='imageview/pv_amplify.png' source='0,52,26,78'" disabledimage="file='imageview/pv_amplify.png' source='0,78,26,104'" tooltip="T_(PhotoView_ZoomIn_Tip)"/>
+						<Control width="15" />
+						<Button name="reducebtn" width="26" normalimage="file='imageview/pv_reduce.png' source='0,0,26,26'" hotimage="file='imageview/pv_reduce.png' source='0,26,26,52'" pushedimage="file='imageview/pv_reduce.png' source='0,52,26,78'" disabledimage="file='imageview/pv_reduce.png' source='0,78,26,104'" tooltip="T_(PhotoView_ZoomOut_Tip)"/>
+						<Control width="15" />
+						<Button name="originbtn" width="26" normalimage="file='imageview/pv_origin.png' source='0,0,26,26'" hotimage="file='imageview/pv_origin.png' source='0,26,26,52'" pushedimage="file='imageview/pv_origin.png' source='0,52,26,78'" disabledimage="file='imageview/pv_origin.png' source='0,78,26,104'" tooltip="T_(PhotoView_DisplayedActualSize_Tip)"/>
+						<Control width="15" />
+						<Button name="maxbtn" width="26" normalimage="file='imageview/pv_fullscreen.png' source='0,0,26,26'" hotimage="file='imageview/pv_fullscreen.png' source='0,26,26,52'" pushedimage="file='imageview/pv_fullscreen.png' source='0,52,26,78'" tooltip="T_(PhotoView_FullScreenView_Tip)"/>
+						<Button name="restorebtn" visible="false" width="26" normalimage="file='imageview/pv_restore.png' source='0,0,26,26'" hotimage="file='pv_restore.png' source='0,26,26,52'" pushedimage="file='imageview/pv_restore.png' source='0,52,26,78'"  tooltip="T_(PhotoView_QuitFullScreenView_Tip)"/>
+						<Control width="15" />
+						<Button name="rotationbtn" width="26" normalimage="file='imageview/pv_rotate.png' source='0,0,26,26'" hotimage="file='imageview/pv_rotate.png' source='0,26,26,52'" pushedimage="file='imageview/pv_rotate.png' source='0,52,26,78'" disabledimage="file='imageview/pv_rotate.png' source='0,78,26,104'" tooltip="T_(PhotoView_RotateRight_Tip)"/>
+						<Control width="7" />
+						<Control width="1" bkimage="pv_split.png" />
+						<Control width="7" />
+						<Button name="saveasbtn" width="26" normalimage="file='imageview/pv_svae.png' source='0,0,26,26'" hotimage="file='imageview/pv_svae.png' source='0,26,26,52'" pushedimage="file='imageview/pv_svae.png' source='0,52,26,78'" disabledimage="file='imageview/pv_svae.png' source='0,78,26,104'" tooltip="T_(PhotoView_Save_Tip)"/>
+						<Control width="7"/>
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout name="bottomlistpanel" height="110" visible="false" bkcolor="0xFFFF0000" >
+				<Control width="3" />
+				<Button name="uppagebtn"  pos="0,0,0,0" bkcolor="0xFFFF00FF" float="true" width="30" height="30" normalimage="file='imageview/pv_svae.png' source='0,0,26,26'" hotimage="file='imageview/pv_svae.png' source='0,26,26,52'" pushedimage="file='imageview/pv_svae.png' source='0,52,26,78'" disabledimage="file='imageview/pv_svae.png' source='0,78,26,104'" />
+				<VerticalLayout>
+					<Control width="10"/>
+					<HorizontalLayout name="picturelistpanel" height="100" >
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<Button name="downpagebtn" pos="0,0,0,0" bkcolor="0xFFFF00FF" float="true" width="30" height="30" normalimage="file='imageview/pv_svae.png' source='0,0,26,26'" hotimage="file='imageview/pv_svae.png' source='0,26,26,52'" pushedimage="file='imageview/pv_svae.png' source='0,52,26,78'" disabledimage="file='imageview/pv_svae.png' source='0,78,26,104'" />
+			</HorizontalLayout>
+			<Control height="5"/>
+		</VerticalLayout>
+	</Container>
+</Window>

@@ -57,6 +57,21 @@
     <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DuiPhotoView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialogEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UUCenterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UUPhotoListUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +93,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiPhotoView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialogEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UUCenterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UUPhotoListUI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -120,6 +147,9 @@
       <Filter>资源文件</Filter>
     </Xml>
     <Xml Include="..\bin\skin\tr_history_listitem.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\imageview.xml">
       <Filter>资源文件</Filter>
     </Xml>
   </ItemGroup>

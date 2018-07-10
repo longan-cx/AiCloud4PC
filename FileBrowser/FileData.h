@@ -73,7 +73,6 @@ public:
 	int tr_type;
 	size_t tr_progress;
 	size_t tr_size;
-
 	bool isselect;
 
 	inline void setSizeText(){

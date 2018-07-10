@@ -5,6 +5,8 @@
 #include "SkinFrame.h"
 #include "Resource.h"
 #include "MsgWnd.h"
+#include "DuiPhotoView.h"
+
 Logger subTest = Logger::getInstance(LOG4CPLUS_TEXT("CMainWnd.cpp"));
 #define log(x) LOG4CPLUS_DEBUG(subTest, x);
 
@@ -57,8 +59,11 @@ LPCTSTR CMainWnd::GetWindowClassName() const
 void CMainWnd::InitWindow()
 {
 	log("InitWindow");
+
 	try
 	{
+		
+
 		WindowImplBase::InitWindow();
 
 		initSystemControls();
@@ -540,6 +545,7 @@ void CMainWnd::deleteFile()
 
 void CMainWnd::downloadFile()
 {
+	
 	CMsgWnd::MessageBox(m_hWnd, NULL, _T("下载文件"));
 }
 
@@ -547,7 +553,9 @@ void CMainWnd::downloadFile()
 
 void CMainWnd::createDir()
 {
-	CMsgWnd::MessageBox(m_hWnd, NULL, _T("新建文件夹"));
+	CDuiString strDir = CPaintManagerUI::GetInstancePath();
+	strDir += _T("tmp\\images\\");
+	CDuiPhotoView::ShowDuiPhotoView(this->m_hWnd, strDir);
 }
 
 
